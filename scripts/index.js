@@ -11,7 +11,7 @@ const liMaker = (text) => {
     const li = document.createElement('li');
     li.textContent = text;
     ul.appendChild(li);
-}
+};
 
 form.addEventListener('submit', function (e) {
     e.preventDefault();
